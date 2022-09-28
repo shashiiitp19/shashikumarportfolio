@@ -1,0 +1,175 @@
+.project {
+    width: 100%;
+    min-height: 45vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0em;
+    margin-top: 0em;
+  }
+  
+  .leftp {
+    float: left;
+    height: 40vh;
+    width: 570px;
+    /* background: rgb(153, 145, 145); */
+    margin-left: 3em;
+    margin-top: 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .leftp .button{
+    float: left;
+    height: 40vh;
+    width: 570px;
+    cursor: pointer;
+    border: none;
+    margin-left: 0em;
+    margin-top: 0em;
+  }
+  
+  .leftp :hover {
+    /* box-shadow: 8px 8px 5px #ffffff; */
+    /* opacity: 0.6; */
+    /* box-shadow: 5px 5px rgb(48, 43, 43); */
+    background: rgb(225, 225, 225);
+    /* border: none; */
+  }
+  
+  .top_l {
+    height: 5vh;
+    width: 25px;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-size: 1.5rem;
+  }
+  .heading h2 {
+    height: 5vh;
+    width: 400px;
+    text-align: left;
+    margin-left: 2.2em;
+    margin-top: -1.5em;
+    font-size: 25px;
+    color: rgb(4, 4, 70);
+  }
+  .para p {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 1.7em;
+    margin-right: 2em;
+    text-align: justify;
+    letter-spacing: 0px;
+    height: 7vh;
+    width: 515px;
+  }
+  
+  .icon_s_l {
+    margin-left: 16em;
+    display: flex;
+    gap: 20px;
+    float: left;
+    font-size: 1.5rem;
+    margin-top: -0.5em;
+    height: 6vh;
+    width: 160px;
+  }
+  
+  .icon_s_l .tf {
+    color: rgb(222, 120, 17);
+  }
+  .icon_s_l .keras {
+    color: rgb(186, 31, 0);
+  }
+  .icon_s_l .torch {
+    color: rgb(190, 81, 34);
+  }
+  .icon_s_l .python {
+    color: rgb(41, 72, 118);
+  }
+
+
+  .html{
+    color: rgb(182, 30, 30);
+  }
+  .css{
+    color: rgb(16, 74, 173);
+  }
+  .js{
+    color: rgb(252, 183, 22);
+  }
+  .react{
+    color: rgb(120, 165, 233);
+  }
+  
+  
+  .rightp {
+    float: right;
+    height: 40vh;
+    width: 570px;
+    /* background: rgb(153, 145, 145); */
+    margin-right: 3em;
+    margin-top: 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .rightp .button_r{
+    float: right;
+    height: 40vh;
+    width: 570px;
+    cursor: pointer;
+    border: none;
+    margin-left: 0em;
+    margin-top: 0em;
+  }
+  
+  .rightp :hover {
+    /* box-shadow: 8px 8px 5px #ffffff; */
+    /* opacity: 0.6; */
+    /* box-shadow: 5px 5px rgb(48, 43, 43); */
+    background: rgb(225, 225, 225);
+    border: none;
+  }
+  
+  
+  
+  
+  .top_r {
+    height: 5vh;
+    width: 25px;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    font-size: 1.5rem;
+  }
+  .heading_r h2 {
+    height: 5vh;
+    width: 400px;
+    text-align: left;
+    margin-left: 2.2em;
+    margin-top: -1.5em;
+    font-size: 25px;
+    color: rgb(4, 4, 70);
+  }
+  .para_r p {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 1.7em;
+    margin-right: 2em;
+    text-align: justify;
+    letter-spacing: 0px;
+    height: 7vh;
+    width: 515px;
+  }
+  
+  .icon_s_r {
+    margin-left: 16em;
+    display: flex;
+    gap: 20px;
+    float: left;
+    font-size: 1.5rem;
+    margin-top: -0.5em;
+    height: 6vh;
+    width: 160px;
+  }
+  

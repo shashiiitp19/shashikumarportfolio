@@ -1,0 +1,205 @@
+.row {
+  margin-top: 5em;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0em;
+}
+
+.column {
+  float: left;
+  height: 85vh;
+  width: 33em;
+  background: rgb(255, 255, 255);
+  margin-left: 3em;
+  margin-top: 2em;
+}
+.heading {
+  float: right;
+  height: 70vh;
+  width: 600px;
+  /* margin: 0 auto; */
+  margin-right: 5em;
+  background: rgb(255, 255, 255);
+  margin-top: 5em;
+}
+
+.column img {
+  float: left;
+  /* padding: 40px; */
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 480px;
+  margin-top: 0em;
+  margin-left: 3em;
+}
+
+.heading h1 {
+  text-align: center;
+  margin-right: 50px;
+  text-justify: inter-word;
+  color: rgb(37, 37, 104);
+  font-size: 50px;
+  margin-top: 5%;
+}
+.heading h2 {
+  text-align: center;
+  margin-right: 80px;
+  text-justify: inter-word;
+  color: rgb(37, 37, 104);
+  font-size: 30px;
+  margin-top: 0em;
+}
+
+.heading p {
+  color: rgb(90, 90, 126);
+  font-size: 20px;
+  padding: 15px;
+}
+.jobs {
+  position: relative;
+  display: inline-block;
+  margin-top: 5em;
+}
+/* .btn {
+  display: inline-block;
+  margin-top: 1em;
+  border: 1px solid rgb(21, 21, 20);
+  width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: rgb(214, 214, 214);
+  color: rgb(5, 7, 26);
+  padding: 10px 565px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+} */
+
+.btnWork {
+  display: inline-block;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  color: rgb(3, 5, 23);
+  padding: 14px 500px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 105px;
+  border: 1px solid rgb(21, 21, 20);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+.btnWork:hover {
+  background-color: rgb(230, 230, 230);
+  color: black;
+}
+
+.btnIntern {
+  display: inline-block;
+  /* margin-bottom: 10px; */
+  background-color: #ffffff;
+  color: rgb(3, 5, 23);
+  padding: 14px 478px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 105px;
+  border: 1px solid rgb(21, 21, 20);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.btnIntern:hover {
+  background-color: rgb(230, 230, 230);
+  color: black;
+}
+
+/********************* Research Work ************************/
+
+.research {
+  width: 100%;
+  height: 45rem;
+  margin-top: 7rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.research h2 {
+  color: rgb(37, 37, 104);
+  font-size: 40px;
+  text-align: center;
+}
+.research h3 {
+  color: rgb(37, 37, 104);
+  font-size: 22px;
+  text-align: center;
+}
+
+.researchl {
+  float: left;
+  height: 20rem;
+  width: 35rem;
+  margin-left: 5rem;
+  margin-top: 6rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.researchl h3 {
+  color: rgb(37, 37, 104);
+  font-size: 22px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.researchl p {
+  color: rgb(37, 37, 104);
+  font-size: 18px;
+  text-align: center;
+  text-align: justify;
+}
+
+.researchr {
+  float: right;
+  height: 27rem;
+  width: 30rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.researchr img {
+  height: 27rem;
+  width: 30rem;
+}
+
+/* .research button{
+  height: 5rem;
+  width: 5rem;
+  background-color: aquamarine;
+}  */
+ 
+.research button {
+  border: none;
+  color: white;
+  background-color: rgb(9, 9, 79);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 17px;
+  margin-top: 31em;
+  margin-left: -6.5em;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.research button:hover,
+.research button:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 79);
+  border: 1px solid rgb(9, 9, 79);
+}
+

@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/shashikumarportfolio/static/css/main.7e3b883b.chunk.css",
+    "main.js": "/shashikumarportfolio/static/js/main.9bed9f89.chunk.js",
+    "main.js.map": "/shashikumarportfolio/static/js/main.9bed9f89.chunk.js.map",
+    "runtime-main.js": "/shashikumarportfolio/static/js/runtime-main.4fb97815.js",
+    "runtime-main.js.map": "/shashikumarportfolio/static/js/runtime-main.4fb97815.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/shashikumarportfolio/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ca27d759.chunk.js": "/shashikumarportfolio/static/js/2.ca27d759.chunk.js",
+    "static/js/2.ca27d759.chunk.js.map": "/shashikumarportfolio/static/js/2.ca27d759.chunk.js.map",
+    "index.html": "/shashikumarportfolio/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/shashikumarportfolio/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.7e3b883b.chunk.css.map": "/shashikumarportfolio/static/css/main.7e3b883b.chunk.css.map",
+    "static/js/2.ca27d759.chunk.js.LICENSE.txt": "/shashikumarportfolio/static/js/2.ca27d759.chunk.js.LICENSE.txt",
+    "static/media/bg1.fb82a6d6.jpg": "/shashikumarportfolio/static/media/bg1.fb82a6d6.jpg",
+    "static/media/blogimg3.51fc8d3c.png": "/shashikumarportfolio/static/media/blogimg3.51fc8d3c.png",
+    "static/media/btechlogo.f37fb825.png": "/shashikumarportfolio/static/media/btechlogo.f37fb825.png",
+    "static/media/cloud.a2646ee8.png": "/shashikumarportfolio/static/media/cloud.a2646ee8.png",
+    "static/media/degree21.e7855e40.png": "/shashikumarportfolio/static/media/degree21.e7855e40.png",
+    "static/media/design.a93e46c9.png": "/shashikumarportfolio/static/media/design.a93e46c9.png",
+    "static/media/exper1.7f25259f.png": "/shashikumarportfolio/static/media/exper1.7f25259f.png",
+    "static/media/fullstack.8fee4d5e.png": "/shashikumarportfolio/static/media/fullstack.8fee4d5e.png",
+    "static/media/home_img.ab206f09.png": "/shashikumarportfolio/static/media/home_img.ab206f09.png",
+    "static/media/iitlogo2.68afdd28.png": "/shashikumarportfolio/static/media/iitlogo2.68afdd28.png",
+    "static/media/img666.3fc73a13.jpg": "/shashikumarportfolio/static/media/img666.3fc73a13.jpg",
+    "static/media/list_icon.5a88f747.svg": "/shashikumarportfolio/static/media/list_icon.5a88f747.svg",
+    "static/media/ml3.833623d7.png": "/shashikumarportfolio/static/media/ml3.833623d7.png",
+    "static/media/proj2.99f3407f.png": "/shashikumarportfolio/static/media/proj2.99f3407f.png",
+    "static/media/reactlogo.cb8eb538.png": "/shashikumarportfolio/static/media/reactlogo.cb8eb538.png",
+    "static/media/res1.d55c6fff.png": "/shashikumarportfolio/static/media/res1.d55c6fff.png",
+    "static/media/wall.699d8519.jpg": "/shashikumarportfolio/static/media/wall.699d8519.jpg",
+    "static/media/worklaptop.6139123b.png": "/shashikumarportfolio/static/media/worklaptop.6139123b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fb97815.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ca27d759.chunk.js",
+    "static/css/main.7e3b883b.chunk.css",
+    "static/js/main.9bed9f89.chunk.js"
+  ]
+}

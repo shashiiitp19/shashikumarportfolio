@@ -1,0 +1,68 @@
+.rowhead {
+  width: 100%;
+  min-height: 75vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0em;
+}
+
+.leftcolumn{
+  float: left;
+  height: 70vh;
+  width: 605px;
+  background: rgb(255, 255, 255);
+  margin-left: 4em;
+  margin-top: 1em;
+}
+
+.leftcolumn img {
+  height: 400px;
+  width: 550px;
+  margin-top: 1em;
+  margin-left: 0em;
+}
+
+.rightcolumn{
+  float: right;
+  height: 60vh;
+  width: 500px;
+  background: rgb(255, 255, 255);
+  margin-right: 4em;
+  margin-top: 4em;
+}
+
+.rightcolumn h1 {
+  text-align: center;
+  margin-right: 50px;
+  color: rgb(4, 4, 70);
+  font-size: 50px;
+  margin-top: 1em;
+}
+.rightcolumn p {
+  color: rgb(81, 81, 81);
+  font-size: 20px;
+  margin-top: -0.5em;
+  padding: 10px;
+  /* margin: 50px; */
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  /* font-family: helvetica;
+  text-indent: ; */
+}
+/* 
+.rightcolumn div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 10px;
+  margin: 100px;
+  left: 80%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+} */

@@ -1,0 +1,113 @@
+.socialcontainer {
+  /* background: white; */
+  padding: 2em 5em;
+  margin-left: 3em;
+  display: flex;
+  position: absolute;
+  margin: 0 5px;
+  gap: 10px;
+  margin-right: 1em;
+  float: right;
+}
+
+.linkedin {
+  /* margin: 0 7px; */
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.linkedin:hover {
+  transform: translateY(-5px);
+}
+
+.google {
+  /* margin: 0 7px; */
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.google:hover {
+  transform: translateY(-5px);
+}
+
+.github {
+  /* margin: 0 7px; */
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.github:hover {
+  transform: translateY(-5px);
+}
+
+.facebook {
+  /* margin: 0 7px; */
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.facebook:hover {
+  transform: translateY(-5px);
+}
+
+.instagram {
+  /* margin: 0 7px; */
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.instagram:hover {
+  transform: translateY(-5px);
+}
+
+.twitter {
+  /* margin: 0 7px; */
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.twitter:hover {
+  transform: translateY(-5px);
+}
+
+
+
+
+/* 
+.social a{
+  margin: 0 7px;
+  transition: transform 250ms;
+  display:inline-block;
+}
+
+.social a:hover {
+  transform: translateY(-5px);
+}
+
+.social a.youtube {
+  color: #eb3223;
+  background-color: rgb(255, 255, 255);
+}
+
+.social a.facebook {
+  color: #4968ad;
+  background-color: rgb(255, 255, 255);
+}
+
+.social a.twitter {
+  color: #49a1eb;
+  background-color: rgb(255, 255, 255);
+}
+
+.social a.instagram {
+  color: rgb(147, 10, 10);
+  background-color: rgb(255, 255, 255);
+}
+.social a.linkedin {
+  color: #005dc0;
+  background-color: rgb(255, 255, 255);
+}
+.social a.google {
+  color: #ad2607;
+  background-color: rgb(255, 255, 255);
+} */

@@ -1,0 +1,292 @@
+.workhead {
+  margin-top: 3em;
+  text-align: center;
+  color: rgb(7, 26, 62);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2em;
+  text-decoration: solid;
+}
+.hboxai {
+  margin-top: 7em;
+  width: 100%;
+  min-height: 95vh;
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  background-color: rgb(255, 255, 255);
+  margin-left: 0em;
+}
+.hleftBoxai {
+  float: left;
+  min-height: 90vh;
+  max-width: 580px;
+  background: rgb(255, 255, 255);
+  /* margin: 0; */
+  margin: 0 auto;
+  margin-left: 3em;
+  margin-top: 0em;
+}
+
+.hleftBoxai img {
+  height: 350px;
+  width: 420px;
+  margin-right: 0em;
+  margin-left: 4em;
+  margin-top: 4em;
+}
+
+.icons_social {
+  float: left;
+  margin-left: -5em;
+}
+
+.hrightBoxai {
+  float: right;
+  min-height: 90vh;
+  max-width: 580px;
+  margin: 0 auto;
+  margin-right: 5em;
+  background: rgb(255, 255, 255);
+  margin-top: 0.5em;
+}
+
+.head1ai h2 {
+  height: 70px;
+  width: 550px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  font-size: 2.5em;
+  margin-top: 0em;
+  margin-left: 0px;
+  margin: 0 auto;
+  color: rgb(7, 26, 62);
+  font-weight: 100;
+}
+
+.head2ai {
+  height: 70px;
+  width: 580px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 20px;
+  padding: 0em 2em;
+  margin: 0 5px;
+  margin: 0 auto;
+  float: left;
+  font-size: 3rem;
+  margin-top: 1em;
+  /* background-color: blueviolet;
+      color: black; */
+}
+
+.head2ai .tf {
+  color: rgb(222, 120, 17);
+}
+.head2ai .keras {
+  color: rgb(186, 31, 0);
+}
+.head2ai .torch {
+  color: rgb(190, 81, 34);
+}
+.head2ai .python {
+  color: rgb(41, 72, 118);
+}
+.head2ai .colab {
+  color: rgb(197, 130, 44);
+}
+.head2ai .scikit {
+  color: rgb(108, 155, 43);
+}
+.head2ai .ai {
+  color: rgb(40, 149, 232);
+}
+
+/* .html:hover + .htmlhide{
+    display: block;
+    color: rgb(187, 123, 123);
+  } */
+.tf:before {
+  content: attr(data-hover);
+  font-size: large;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  /* padding: 3px 0px; */
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 38em;
+  top: 60em; */
+}
+
+.tf:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.keras:before {
+  content: attr(data-hover);
+  font-size: large;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  /* padding: 3px 0px; */
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 42em;
+  top: 60em; */
+}
+
+.keras:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.torch:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 45em;
+  top: 60em; */
+}
+
+.torch:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.python:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 48.5em;
+  top: 60em; */
+}
+
+.python:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.colab:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 52em;
+  top: 60em; */
+}
+
+.colab:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scikit:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 56em;
+  top: 60em; */
+}
+
+.scikit:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ai:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(255, 150, 241);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 60em;
+  top: 60em; */
+}
+
+.ai:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fchildai p {
+  /* text-align: center; */
+  margin-top: 1.5em;
+  margin-left: 1em;
+  float: left;
+  font-size: 1.2em;
+}

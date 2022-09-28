@@ -1,0 +1,380 @@
+.workhead {
+  margin-top: 3em;
+  text-align: center;
+  color: rgb(7, 26, 62);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2em;
+  text-decoration: solid;
+}
+.hbox {
+  margin-top: 2em;
+  /* width: 70em; */
+  /* height: 37.5em; */
+  /* height: 50vw;
+  width: 100vw; */
+  /* max-width: ; */
+  /* max-width: inherit; */
+  width: 100%;
+  min-height: 95vh;
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+
+  /* border-radius: 5px; */
+  background-color: rgb(255, 255, 255);
+  margin-left: 0em;
+  /* border-radius: 10px;
+      box-shadow: 10px 10px #e6eae9;
+      box-shadow: 8px 8px 5px #dadada; */
+}
+.hleftBox {
+  float: left;
+  /* height: 600px;
+  width: 500px; */
+  /* min-height: auto;
+  max-width: 500px; */
+
+  min-height: 90vh;
+  max-width: 600px;
+
+  background: rgb(255, 255, 255);
+  /* margin: 0; */
+  margin: 0 auto;
+  margin-left: 1em;
+  margin-top: 0.5em;
+
+
+
+  /* border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border: 1px solid rgb(37, 37, 39); */
+  /* box-shadow: 5px 5px #a4a7a9; */
+}
+
+.hleftBox img {
+  height: 450px;
+  width: 500px;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+/* .hleftBox .lappy {
+  margin-bottom: 7em;
+  height: 200px;
+  width: 150px;
+  margin-left: 3em;
+} */
+
+/* .hleftBox .man {
+    margin-bottom: 5em;
+    height: 300px;
+    width: 250px;
+  } */
+/* 
+.hleftBox h1 {
+  text-align: center;
+  margin-top: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4em;
+  color: rgb(7, 26, 62);
+  text-decoration: solid;
+}
+.hleftBox h2 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 2em;
+  margin-top: -1em;
+  margin-left: -10px;
+  color: rgb(7, 26, 62);
+} */
+
+/* .hleftBox p {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.4em;
+  color: rgb(82, 82, 86);
+}
+
+.icons_social {
+  float: left;
+  margin-left: -5em;
+} */
+
+.hrightBox {
+  float: right;
+  /* float:inline-start; */
+  /* height: 550px;
+  width: 500px; */
+  /* height: 50vw;
+  width: 45vw; */
+  /* max-width: 400px;
+  min-height: auto; */
+  min-height: 90vh;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-right: 3em;
+  background: rgb(255, 255, 255);
+  margin-top: 0.5em;
+  /* border-top-left-radius: 10px;
+      border-top-right-radius: 10px; */
+  /* box-shadow: 5px 5px #a4a7a9; */
+}
+
+/* .hrightBox img {
+  height: 600px;
+  width: 600px;
+  margin-right: 2em;
+} */
+
+.head1 h2 {
+  height: 70px;
+  width: 550px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  font-size: 2.5em;
+  margin-top: 0em;
+  margin-left: 0px;
+  margin: 0 auto;
+  color: rgb(7, 26, 62);
+  font-weight: 100;
+}
+
+.head2 {
+  height: 70px;
+  width: 580px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 20px;
+  padding: 0em 2em;
+  margin: 0 5px;
+  margin: 0 auto;
+  float: left;
+  font-size: 3rem;
+  margin-top: 1em;
+  /* background-color: blueviolet;
+    color: black; */
+}
+
+.head2 .html {
+  color: rgb(182, 30, 30);
+}
+.head2 .css {
+  color: rgb(16, 74, 173);
+}
+.head2 .script {
+  color: rgb(252, 183, 22);
+}
+.head2 .react {
+  color: rgb(120, 165, 233);
+}
+.head2 .node {
+  color: rgb(0, 112, 28);
+}
+.head2 .npm {
+  color: rgb(225, 79, 34);
+}
+.head2 .yarn {
+  color: rgb(13, 211, 242);
+}
+
+/* .html:hover + .htmlhide{
+  display: block;
+  color: rgb(187, 123, 123);
+} */
+.html:before {
+  content: attr(data-hover);
+  font-size: large;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  /* font-weight: 500; */
+  /* padding: 3px 0px; */
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 38em;
+  top: 60em; */
+}
+
+.html:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.css:before {
+  content: attr(data-hover);
+  font-size: large;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  /* padding: 3px 0px; */
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 42em;
+  top: 60em; */
+}
+
+.css:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.script:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  /* width: 88px;
+  height: 25px; */
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 45em;
+  top: 60em; */
+}
+
+.script:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.react:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 48.5em;
+  top: 60em; */
+}
+
+.react:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.node:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 52em;
+  top: 60em; */
+}
+
+.node:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.npm:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 56em;
+  top: 60em; */
+}
+
+.npm:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.yarn:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+  padding: 0px 3px;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  /* z-index: 1; */
+  /* left: 60em;
+  top: 60em; */
+}
+
+.yarn:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* .fchild img {
+  height: 1.5em;
+  width: 1.5em;
+  float: left;
+  margin-top: 3em;
+  margin-left: 0em;
+  margin-right: 5em;
+} */
+.fchild p {
+  /* text-align: center; */
+  margin-top: 1.5em;
+  margin-left: 1em;
+  float: left;
+  font-size: 1.2em;
+}

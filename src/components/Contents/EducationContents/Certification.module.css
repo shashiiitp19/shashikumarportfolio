@@ -1,0 +1,205 @@
+.certificate{
+  width: 100%;
+  min-height: 70vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 0em;
+}
+
+
+.certificate h2 {
+  margin-top: 0em;
+  font-size: 38px;
+  margin-left: 0em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(9, 9, 79);
+}
+
+.bigBox {
+  margin-top: 5em;
+  width: 400px;
+  height: 290px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 12em;
+  border-radius: 10px;
+  /* box-shadow: 10px 10px #e6eae9; */
+  box-shadow: 8px 8px 5px #dadada;
+}
+.leftBox {
+  float: left;
+  height: 120px;
+  width: 400px;
+  background: rgb(255, 255, 255);
+  margin: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(37, 37, 39);
+  /* box-shadow: 5px 5px #a4a7a9; */
+}
+.leftBox h3 {
+  text-align: center;
+  margin-top: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.leftBox h4 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.rightBox {
+  height: 170px;
+  width: 400px;
+  background: rgb(0, 21, 83);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* box-shadow: 5px 5px #a4a7a9; */
+}
+
+.rightBox .reacticon{
+  height: 180px;
+  width: 250px;
+  font-size: 150px;
+  padding: 0px 120px;
+  color:rgb(0, 242, 255);
+  /* margin-left: 1em; */
+}
+
+.rightBox img {
+  height: 180px;
+  width: 250px;
+  margin-left: 5em;
+}
+
+.rightBox__overlay {
+  position: relative;
+  /* top:0%;
+  left:0%; */
+  /* width: 100%; */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.769);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  margin-top: -11.2em;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.35s;
+  cursor: pointer;
+}
+
+.rightBox__overlay > * {
+  transform: translateY(95px);
+}
+
+.rightBox__overlay:hover {
+  opacity: 1;
+}
+
+.rightBox__overlay:hover > * {
+  transform: translateY(0);
+  transition: transform 0.35s;
+}
+
+.rightBox__overlay p{
+  font-size: 25px;
+  font-weight:300;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* margin-top: -3em; */
+}
+
+.bigBox_2 {
+  float: right;
+  width: 400px;
+  height: 290px;
+  margin-top: -18em;
+  margin-right: 12em;
+  
+  border-radius: 5px;
+  background-color: aqua;
+  /* margin-left: 10em; */
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px #dadada;
+}
+.leftBox_2 {
+  float: right;
+  height: 120px;
+  width: 400px;
+  background: rgb(253, 251, 251);
+  margin: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid rgb(37, 37, 39);
+}
+.leftBox_2 h3 {
+  text-align: center;
+  margin-top: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.leftBox_2 h4 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.rightBox_2 {
+  height: 170px;
+  width: 400px;
+  background: rgb(175, 0, 155);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rightBox_2 .jsicon{
+  height: 180px;
+  width: 250px;
+  font-size: 150px;
+  padding: 0px 120px;
+  color:rgb(251, 255, 0);
+  /* margin-left: 1em; */
+}
+
+/* .rightBox_2 img {
+  height: 180px;
+  width: 250px;
+  margin-left: 5em;
+} */
+
+
+.rightBox_2__overlay {
+  position: relative;
+  /* top:0%;
+  left:0%; */
+  /* width: 100%; */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.769);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  margin-top: -11.2em;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.35s;
+  cursor: pointer;
+}
+
+.rightBox_2__overlay > * {
+  transform: translateY(95px);
+}
+
+.rightBox_2__overlay:hover {
+  opacity: 1;
+}
+
+.rightBox_2__overlay:hover > * {
+  transform: translateY(0);
+  transition: transform 0.35s;
+}
+
+.rightBox_2__overlay p{
+  font-size: 25px;
+  font-weight:300;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* margin-top: -3em; */
+}

@@ -1,0 +1,236 @@
+.contactgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* background-color: #daebed; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* .contactgrid img{
+  width: 100%;
+  height: 100%;
+} */
+
+._grid {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: #daebed; */
+  padding: 0px;
+}
+
+.myimg {
+  margin-left: 5em;
+  width: 400px;
+  height: 400px;
+  margin-top: 5em;
+  background-color: #ffffff;
+  /* background-color: #daebed; */
+}
+.myimg img {
+  width: 370px;
+  height: 400px;
+  margin-top: 0em;
+  margin-left: 5em;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .myimg {
+    margin-left: 0em;
+  }
+  .myimg img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+.tr_grid {
+  width: 30em;
+  height: 25em;
+  margin-left: 0em;
+  margin-top: 5em;
+  background-color: rgb(255, 255, 255);
+  /* background-color: #daebed; */
+}
+
+.tr_grid h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(4, 4, 70);
+}
+.tr_grid p {
+  font-size: 19px;
+  text-align: center;
+  /* letter-spacing: 1px; */
+  /* text-indent: 30px; */
+  font-weight: 550;
+  color: rgb(81, 81, 81);
+}
+
+.tr_grid__ {
+  margin-top: 0em;
+  margin-right: 0em;
+}
+
+.tr_grid button {
+  border: none;
+  color: white;
+  background-color: rgb(9, 9, 79);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 7.5em;
+  margin-left: 9.7em;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.tr_grid button:hover,
+.tr_grid button:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 79);
+  border: 1px solid rgb(9, 9, 79);
+}
+
+.blog1 {
+  width: 530px;
+  height: 500px;
+  margin-top: 4em;
+  margin-right: 2em;
+  background-color: #ffffff;
+  /* background-color: #daebed; */
+}
+
+.blog1 img {
+  width: 500px;
+  height: 450px;
+  margin-top: 0em;
+  margin-right: 1em;
+}
+
+.blog_grid {
+  width: 34em;
+  height: 25em;
+  margin-left: 3em;
+  margin-top: 7em;
+  background-color: rgb(255, 255, 255);
+  /* background-color: #daebed; */
+}
+
+.blog_grid h2 {
+  text-align: center;
+  margin-left: 0em;
+  font-size: 45px;
+  color: rgb(4, 4, 70);
+}
+
+.blog_grid p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 550;
+  color: rgb(81, 81, 81);
+}
+
+.blog_grid button {
+  border: none;
+  color: white;
+  background-color: rgb(9, 9, 79);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 1.5em;
+  margin-left: 10.5em;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.blog_grid button:hover,
+.blog_grid button:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 79);
+  border: 1px solid rgb(9, 9, 79);
+}
+
+.contact_grid {
+  width: 450px;
+  height: 300px;
+  margin-top: 3em;
+  margin-left: 5em;
+  background-color: #ffffff;
+  /* background-color: #daebed; */
+}
+.contact_grid img {
+  width: 300px;
+  height: 230px;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+.contact__grid {
+  width: 30em;
+  height: 20em;
+  margin-left: 0em;
+  margin-top: 2em;
+  background-color: rgb(255, 255, 255);
+  /* background-color: #daebed; */
+}
+
+.contact__grid h2 {
+  text-align: center;
+  margin-left: 0em;
+  font-size: 30px;
+  color: rgb(4, 4, 70);
+}
+.contact__grid p {
+  font-size: 18px;
+  text-align: center;
+  text-indent: 30px;
+  font-weight: 550;
+  color: rgb(81, 81, 81);
+}
+
+.contact__grid__ h2 {
+  text-align: center;
+  margin-left: 0em;
+  font-size: 30px;
+  color: rgb(4, 4, 70);
+}
+.contact__grid__ p {
+  font-size: 17px;
+  margin-right: 2em;
+  text-align: center;
+  font-weight: 550;
+  color: rgb(81, 81, 81);
+}
+
+.contact__grid button {
+  border: none;
+  color: white;
+  background-color: rgb(9, 9, 79);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 1em;
+  margin-left: 7em;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.contact__grid button:hover,
+.contact__grid button:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 79);
+  border: 1px solid rgb(9, 9, 79);
+}

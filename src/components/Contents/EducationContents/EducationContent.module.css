@@ -1,0 +1,172 @@
+.headerbox {
+  margin-top: 7em;
+  width: 100%;
+  min-height: 95vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0em;
+}
+
+.leftdegree {
+  float: left;
+  min-height: 70vh;
+  max-width: 30em;
+  background: rgb(255, 255, 255);
+  margin-left: 5em;
+  margin-top: 5em;
+  background-color: rgb(255, 255, 255);
+}
+
+.leftdegree img {
+  height: 70vh;
+  width: 30em;
+}
+
+.rightdegree {
+  float: right;
+  min-height: 70vh;
+  max-width: 600px;
+  margin-right: 4em;
+  background: rgb(255, 255, 255);
+  margin-top: 5em;
+}
+
+.rightdegree h2 {
+  float: left;
+  margin-left: 3.6em;
+  font-size: 47px;
+  color: rgb(9, 9, 79);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.rightdegree h3 {
+  float: left;
+  margin-left: 3em;
+  font-size: 25px;
+  color: rgb(22, 22, 66);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.rightdegree .icons {
+  display: flex;
+  gap: 20px;
+  padding: 0em 2em;
+  margin: 0 5px;
+  float: left;
+  margin-left: 0em;
+  font-size: 3.5rem;
+  margin-top: 1em;
+}
+
+.icons .ib a{
+  color:rgb(0, 144, 144)
+}
+.icons .cc a{
+  color:rgb(51, 34, 34)
+}
+.icons .hr a{
+  color:rgb(0, 255, 26)
+}
+.icons .he a{
+  color:rgb(25, 23, 64)
+}
+.icons .lc a{
+  color:rgb(62, 63, 21)
+}
+
+.icons .ib:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float:inherit;
+  border-radius: 5px;
+  position:absolute;
+}
+
+.icons .ib:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.icons .hr:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float:inherit;
+  border-radius: 5px;
+  position:absolute;
+}
+
+.icons .hr:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+.icons .he:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float:inherit;
+  border-radius: 5px;
+  position:absolute;
+}
+
+.icons .he:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+.icons .cc:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float:inherit;
+  border-radius: 5px;
+  position:absolute;
+}
+
+.icons .cc:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+.icons .lc:before {
+  content: attr(data-hover);
+  font-size: large;
+  visibility: hidden;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(219, 219, 219);
+  color: rgb(195, 56, 56);
+  text-align: center;
+  float:inherit;
+  border-radius: 5px;
+  position:absolute;
+}
+
+.icons .lc:hover:before {
+  opacity: 1;
+  visibility: visible;
+}

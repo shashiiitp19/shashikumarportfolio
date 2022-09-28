@@ -1,0 +1,18 @@
+.foot {
+  height: 5em;
+  width: 100%;
+  text-align: center;
+  text-decoration: wavy;
+  text-justify: auto;
+  /* margin-top: 5%; */
+  background-color: transparent;
+  /* background-color: #add7db; */
+}
+
+.foot h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+  font-size: larger;
+  font-weight: bold;
+}

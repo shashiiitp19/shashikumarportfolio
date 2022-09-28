@@ -1,0 +1,119 @@
+.degreebtech {
+  width: 100%;
+  min-height: 75vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.leftdegreebtech {
+  float: left;
+  min-height: 50vh;
+  width: 300px;
+  background: rgb(255, 255, 255);
+  /* margin: 0 auto; */
+  margin-left: 3em;
+  margin-top: 2em;
+}
+
+.leftdegreebtech img {
+  /* min-height: 10vh;
+  max-width: 300px; */
+  width: 10em;
+  height: 10em;
+  margin-left: 8em;
+  margin-top: 2.5em;
+}
+
+.rightdegreebtech {
+  float: right;
+  min-height: 60vh;
+  width: 750px;
+  /* margin: 0 auto; */
+  margin-right: 10em;
+  background: rgb(255, 255, 255);
+  margin-top: 0em;
+}
+
+
+.degreeheadbtech {
+  /* float: left; */
+  height: 18.5vh;
+  width: 750px;
+  /* margin: 0 auto; */
+  margin-right: 0em;
+  background: rgb(255, 255, 255);
+  margin-top: 0em;
+  /* border: 2px solid blue; */
+  border-top: 1px solid rgb(9, 9, 79);
+  border-left: 1px solid rgb(9, 9, 79);
+  border-right: 1px solid rgb(9, 9, 79);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(106, 185, 214);
+}
+.degreeheadbtech h1{
+  /* float: left; */
+  font-size: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* min-height: 5vh;
+  width: 700px; */
+  margin-left: 1em;
+  margin-top: 0em;
+  color: rgb(9, 9, 79);
+  padding: 10px 15px;
+}
+.degreeheadbtech h2 {
+  float: left;
+  /* margin-right: 1em; */
+  font-size: 20px;
+  /* margin-top: 1em; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
+  /* min-height: 20vh;
+  width: 700px; */
+  color: rgb(9, 9, 79);
+  padding: 0px 0px;
+}
+.degreeheadbtech p {
+  float: right;
+  font-size: 15px;
+  margin-right: 3em;
+  margin-top: 1.2em;
+  color: rgb(9, 9, 79);
+  /* min-height: 20vh;
+  width: 700px; */
+}
+
+.degreecontentbtech {
+  height: 35vh;
+  width: 750px;
+  margin-top: 0em;
+  padding: 0px 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(9, 9, 79);;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 18px;
+}
+
+.degreecontentbtech button {
+  border: none;
+  color: rgb(9, 9, 79);
+  background-color: rgb(106, 185, 214);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: -2em;
+  margin-left: 41em;
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.degreecontentbtech button:hover,
+.degreecontentbtech button:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 9, 79);
+  border: 1px solid rgb(9, 9, 79);
+}
